@@ -207,10 +207,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: cc2308ee8ead03940b6dd91a21ccfdfe, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 2067459189}
+        m_TargetAssemblyTypeName: NumberGuessingGame, Assembly-CSharp
+        m_MethodName: OnPressHigher
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -218,7 +218,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!114 &371419923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,7 +523,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 972939962}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2067459189}
+        m_TargetAssemblyTypeName: NumberGuessingGame, Assembly-CSharp
+        m_MethodName: OnPressLower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &972939962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1403,9 +1415,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91f521de72319cb43a6ce05a2c2e3c1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max: 1
-  min: 100
-  guess: 50
+  max: 100
+  min: 1
+  guessText: {fileID: 2068312329}
 --- !u!4 &2067459190
 Transform:
   m_ObjectHideFlags: 0
@@ -1639,7 +1651,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2111474022}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2052495796}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2111474022
 MonoBehaviour:
   m_ObjectHideFlags: 0

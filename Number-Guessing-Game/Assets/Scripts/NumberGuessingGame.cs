@@ -4,11 +4,10 @@ using UnityEngine;
 using TMPro;
 public class NumberGuessingGame : MonoBehaviour
 {
-   [SerializeField]private int max;
-  [SerializeField]private int min;
-   private TextMeshProUGUI guessText;
-
-   [SerializeField]private int guess;
+    [SerializeField]private int max;
+    [SerializeField]private int min;
+    [SerializeField]private TextMeshProUGUI guessText;
+    private int guess;
 
     void Start()
      { 
